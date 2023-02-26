@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include fayez2 *.css
+recursive-include fayez2 *.csv
+recursive-include fayez2 *.html
+recursive-include fayez2 *.ico
+recursive-include fayez2 *.js
+recursive-include fayez2 *.json
+recursive-include fayez2 *.md
+recursive-include fayez2 *.png
+recursive-include fayez2 *.py
+recursive-include fayez2 *.svg
+recursive-include fayez2 *.txt
+recursive-exclude fayez2 *.pyc
